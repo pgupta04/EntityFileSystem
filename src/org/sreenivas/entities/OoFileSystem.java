@@ -13,5 +13,9 @@ package org.sreenivas.entities;
  */
 public class OoFileSystem {
     Text textfile = new Text();
-    
+
+    public static void main(String[] args){
+        OoFileSystem client = new OoFileSystem();
+        client.textfile.setName("NAME");
+    }
 }
